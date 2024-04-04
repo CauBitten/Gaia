@@ -43,6 +43,12 @@ nav li:first-child {
     padding: 5px;
     height: 40px;
 }
+.LogoTexto{
+    margin-right: auto;
+    display: flex;
+    padding: 5px;
+    height: 40px;
+}
 .sidebar {
     position: fixed;
     top: 0;
@@ -128,8 +134,54 @@ main p{
     text-decoration: none;
     color: inherit;
 }
-.login{
-    font-family: ;
+.botaoEntrar a{
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color:#000000;
+    font-size: 25px;
+}
+.botaoEntrar:hover a{
+    color: #00C16C;
+}
+.botaoEntrar:hover{
+    background-color: #002E34;
+}
+.botaoEntrar {
+    position: relative;
+    width: 250px;
+    height: 10px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    z-index: 10;
+    text-align: center;
+    line-height: 0.5;
+    top: 480px;
+    background-color: white;
+}
+.FundoLogin{
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    z-index: 0;
+}
+.textoUsuarioSenha{
+    text-align: center;
+    margin-top: 120px;
+    margin-right: px;
 }
 #map {
     position: absolute;
@@ -140,3 +192,16 @@ main p{
     width: 600px;
     height: 400px;
 }
+input[type="text"] {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; 
+}
+label {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+label:usuario
