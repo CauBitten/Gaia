@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Gaia</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <nav>
@@ -17,7 +18,7 @@
             <li class="hideOnMobile"><a href="mapa.html">Mapa</a></li>
             <li class="hideOnMobile"><a href="login.html">Login</a></li>
             <li class="hideOnMobile"><a href="signup.html">Signup</a></li>
-            <li class="menu-button" onclick=showSidebar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" fill="#90FF17"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" fill="#90FF17"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
         </ul>
          <ul class="sidebar">
             <!-- sidebar -->
@@ -44,15 +45,9 @@
         <br><br>
         Explore, aprenda e participe do Gaia - porque cada árvore plantada é um passo em direção a um mundo mais verde e saudável.</p>
     </main>
-    <script>
-        function showSidebar() {
-            const sidebar = document.querySelector('.sidebar');
-            sidebar.classList.add('active');
-        }
-        function hideSidebar() {
-            const sidebar = document.querySelector('.sidebar');
-            sidebar.classList.remove('active');
-        }
-    </script>
+    <div class="botao">
+        <h1><a href="mapa.html">Veja o mapa!</a></h1>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
