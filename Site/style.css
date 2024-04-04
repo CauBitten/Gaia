@@ -15,12 +15,15 @@ body {
 nav{
     background-color: #002E34;
     box-shadow: 3px 3px 55px rgba(0,0,0,0.1);
+    width: 100%;
+    
 }
 nav ul{
     width: 100%;
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    
 }
 nav li{
     height: 50px;
@@ -53,6 +56,7 @@ nav li:first-child {
     font-size: 35px;
     padding: 5px;
     height: 40px;
+    margin-left: -450px;
 }
 .sidebar {
     position: fixed;
@@ -205,7 +209,7 @@ main p{
     position: absolute;
     margin-left: 250px;
     top: 50%;
-    left: 50%;
+    left: 60%;
     transform: translate(-50%, -50%);
     width: 600px;
     height: 400px;
@@ -222,4 +226,12 @@ label {
     font-size: 25px;
     margin-bottom: 0px;
 }
-label:usuario
+.MenuMapa{
+    text-align: start;
+    margin-top: 250px;
+    margin-left: 30px;
+    background-color: white;
+    box-shadow: #000000;
+    border-radius: 10px;
+    width: 500px;
+}
