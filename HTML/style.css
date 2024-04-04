@@ -23,6 +23,7 @@ nav ul{
 nav li{
     height: 50px;
 }
+
 nav a{
     height: 100%;
     padding: 0 30px;
@@ -36,4 +37,47 @@ nav a:hover{
 }
 nav li:first-child {
     margin-right: auto;
+    display: flex;
+    padding: 5px;
+    height: 40px;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    backdrop-filter: blur(10px);
+    background-color: #002e34e3;
+    box-shadow: -10px 0 10px #004443;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+.login{
+    height: -900px;
+}
+.menu-button{
+    display: none;
+}
+@media(max-width: 800px) {
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+}
+@media(max-width: 400px) {
+    .sidebar{
+        width: 100%;
+    }
 }
