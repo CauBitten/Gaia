@@ -240,6 +240,7 @@ main p{
     border-radius: 5px;
     border: 0.1px solid rgb(169, 169, 169);
     box-sizing: border-box;
+    padding-left: 10px;
 }
 .esqueciSenha {
     position: relative;
