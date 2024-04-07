@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap')
 *{
     margin: 0;
     padding: 0;
@@ -59,7 +60,7 @@ nav li:first-child {
     display: flex;
     align-items: center;
     font-size: 20px;
-    font-family: LUPINES demo;
+    font-family: "Fondamento", cursive, sans-serif;
     color: rgb(126, 50, 7);
     font-weight: 900;
     text-align: left;
@@ -248,7 +249,7 @@ main p{
     height: 10px;
     padding: 20px;
     margin: auto;
-    top: 370px;
+    top: 360px;
     right: 90px;
     font-size: 10px;
     color:#002E34;
@@ -266,7 +267,7 @@ main p{
     height: 10px;
     padding: 20px;
     margin: auto;
-    top: 320px;
+    top: 310px;
     right: -150px;
     font-size: 10px;
     color:#002E34;
