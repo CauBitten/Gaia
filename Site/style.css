@@ -307,7 +307,7 @@ label {
         left: 50%;
         transform: translateX(-50%);
         text-align: start;
-        background-color: rgb(126, 50, 7, 0.8);
+        background-color: #00C16C;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         border-radius: 10px;
         width: 500px;
